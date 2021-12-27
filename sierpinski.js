@@ -86,5 +86,5 @@ function step() {
 
 // Main rendering function, called in a loop.
 function draw() {
-  iterate();
+  step();
 }
