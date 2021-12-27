@@ -69,13 +69,8 @@ function randomPoint() {
 }
 
 // Run a step of the algorithm.
+// See README.md for the algorithm.
 function step() {
-  // 1 Generate a random point p in the triangle
-  // 2 Pick a random triangle vertex v
-  // 3 Let m be the midpoint of p and v
-  // 4 Draw m
-  // 4 Set p to m
-  // 5 Go to step 2
   drawMark(gPoint.x, gPoint.y);
   let randomVertex = gTriangle[floor(random()*3)];
   gPoint = p5.Vector.div(
