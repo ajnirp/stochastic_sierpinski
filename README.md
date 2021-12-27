@@ -1,5 +1,5 @@
 ## About
-A stochastic method to generate an approximation to the Sierpinski triangle.
+A stochastic method to generate an approximation to the Sierpinski triangle. Made using [p5.js](https://p5js.org).
 
 ## Demo
 [Imgur link](https://i.imgur.com/1Svgp0G.mp4)
